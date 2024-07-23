@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 /* * {
   margin: 0;
   width: 0;
@@ -29,4 +30,9 @@
   max-width: 95%;
   margin: auto;
   border-radius: 15px;
+}
+h1 {
+  font-family: "Young Serif", serif;
+  color: hsl(24, 5%, 18%);
+  font-size: 30px;
 }
