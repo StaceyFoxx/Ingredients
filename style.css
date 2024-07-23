@@ -1,0 +1,32 @@
+/* * {
+  margin: 0;
+  width: 0;
+  box-sizing: border-box;
+} */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.body {
+  background-color: hsl(30, 54%, 90%);
+}
+.card {
+  max-width: 50%;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 25px;
+  margin-top: 70px;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card img {
+  max-width: 95%;
+  margin: auto;
+  border-radius: 15px;
+}
