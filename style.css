@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
-/* * {
-  margin: 0;
-  width: 0;
-  box-sizing: border-box;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  text-align: left;
+  color: hsl(30, 10%, 34%); 
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -11,8 +12,10 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-.body {
+body {
   background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
 }
 .card {
   max-width: 50%;
@@ -31,8 +34,27 @@
   margin: auto;
   border-radius: 15px;
 }
-h1 {
+h1,
+h2 {
   font-family: "Young Serif", serif;
+}
+
+h1 {
   color: hsl(24, 5%, 18%);
   font-size: 30px;
+}
+.preparation-time-card {
+  background-color:hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding: 5px 0px 5px 20px;  
+}
+
+.bold-text {
+  font-weight: 800;
+}
+
+li {
+  margin-bottom: 10px;
+}
+#preperation-time-title, .preparation-time-list li::marker{ color: hsl(332, 51%, 32%);
 }
