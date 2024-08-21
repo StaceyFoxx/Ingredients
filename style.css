@@ -58,3 +58,18 @@ li {
 }
 #preperation-time-title, .preparation-time-list li::marker{ color: hsl(332, 51%, 32%);
 }
+.title, .list li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  border: 0 none;
+background:#eee;
+height: 1px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
