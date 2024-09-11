@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 * {
   text-align: left;
-  color: hsl(30, 10%, 34%); 
+  color: hsl(30, 10%, 34%);
 }
 
 .attribution {
@@ -44,9 +44,9 @@ h1 {
   font-size: 30px;
 }
 .preparation-time-card {
-  background-color:hsl(330, 100%, 98%);
+  background-color: hsl(330, 100%, 98%);
   border-radius: 15px;
-  padding: 5px 0px 5px 20px;  
+  padding: 5px 0px 5px 20px;
 }
 
 .bold-text {
@@ -56,20 +56,32 @@ h1 {
 li {
   margin-bottom: 10px;
 }
-#preperation-time-title, .preparation-time-list li::marker{ color: hsl(332, 51%, 32%);
+#preperation-time-title,
+.preparation-time-list li::marker {
+  color: hsl(332, 51%, 32%);
 }
-.title, .list li::marker {
+.title,
+.list li::marker {
   color: hsl(14, 45%, 36%);
 }
 
 hr {
   border: 0 none;
-background:#eee;
-height: 1px;
+  background: #eee;
+  height: 1px;
 }
 
-tr {
-  display: flex;
-  justify-content: space-between;
+table {
+  border-collapse: collapse;
   width: 100%;
+  tr {
+    border-bottom: 0.2px solid lightgrey;
+  }
+  td {
+    padding: 10px 10px 10px 25px;
+  }
+  .colored-fact {
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+  }
 }
